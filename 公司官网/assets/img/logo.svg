@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="宝祥汽配 logo">
+  <defs>
+    <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f5fa8"/>
+      <stop offset="1" stop-color="#0b3d7a"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#lg)"/>
+  <circle cx="60" cy="60" r="47" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 7" stroke-linecap="round"/>
+  <path d="M46 38 v44 h16 a14 14 0 0 0 2 -27.8 A13 13 0 0 0 60 38 z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M46 55 h14" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+</svg>
