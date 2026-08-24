@@ -65,7 +65,7 @@ window.SITE_DATA = {
         "zh": "江西宝祥成立于2018年，位于江西省上饶市经济开发区，占地100 亩、厂房 36000㎡，注册资本6500万元。公司集设计、研发、生产、销售、再生资源回收服务于一体，为吉利、比亚迪、长安、奇瑞、成都金琥等主机厂提供高品质冲压件与焊接总成件。",
         "en": "Founded in 2018 and located in Shangrao Economic Development Zone, Jiangxi, Baoxiang covers 100 mu with 36,000 ㎡ of plants and registered capital of RMB 65 million. We integrate design, R&D, production, sales and recycling services, supplying high-quality stamping and welding assemblies to Geely, BYD, Changan, Chery, Chengdu Jinhu and other OEMs."
       },
-      "image": "assets/img/uploads/20260825-001951-WPS图片.png",
+      "image": "assets/img/hero-factory.svg",
       "ctaText": {
         "zh": "了解产品",
         "en": "Explore Products"
@@ -128,7 +128,7 @@ window.SITE_DATA = {
       },
       "items": [
         {
-          "image": "assets/img/uploads/20260825-002003-微信图片_2026-08-25_001841_778.png",
+          "image": "assets/img/products/assembly-geely.svg",
           "title": {
             "zh": "总成件",
             "en": "Assembly"
