@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>联系我们_在线留言 - 江西宝祥汽车零部件有限公司</title>
+  <meta name="description" content="联系江西宝祥汽车零部件有限公司：公司地址、联系电话、邮箱、微信咨询，欢迎在线留言，我们将尽快回复。">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "江西宝祥汽车零部件有限公司",
+    "image": "assets/img/logo.png",
+    "telephone": "0791-8888 6666",
+    "email": "contact@baoxiang-parts.com",
+    "address": { "@type": "PostalAddress", "streetAddress": "江西省上饶市经济开发区", "addressLocality": "上饶市", "addressRegion": "江西省", "addressCountry": "CN" },
+    "openingHours": "Mo-Fr 08:30-17:30"
+  }
+  </script>
+</head>
+<body data-page="contact">
+  <script>try { var _t = localStorage.getItem("bx_theme"); if ("light dark".indexOf(_t) >= 0) document.body.setAttribute("data-theme", _t); } catch (e) {}</script>
+
+  <header class="site-header" id="site-header"></header>
+
+  <main>
+    <!-- 页面标题区 -->
+    <section class="contact-hero">
+      <div class="container">
+        <h1 id="page-title">联系我们</h1>
+        <p class="hero-sub" id="page-subtitle">欢迎随时与我们联系，我们将竭诚为您服务</p>
+      </div>
+    </section>
+
+    <section class="section contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- 左：联系方式 -->
+          <div class="contact-left">
+            <div class="card contact-info-card" id="contact-info"></div>
+          </div>
+
+          <!-- 右：在线留言 -->
+          <div class="card contact-form-card">
+            <div id="form-wrap">
+              <h2 id="form-title" style="font-size: 22px; margin-bottom: 4px">在线留言</h2>
+              <p id="form-subtitle" style="color: var(--text-muted); margin-bottom: 18px">请填写以下信息，我们会尽快与您取得联系</p>
+              <form id="contact-form" novalidate>
+                <div class="form-group" id="fg-name">
+                  <label id="lb-name">姓名 <span class="req">*</span></label>
+                  <input type="text" id="f-name" placeholder="请输入您的姓名" maxlength="20">
+                  <div class="form-error" id="err-name"></div>
+                </div>
+                <div class="form-group" id="fg-contact">
+                  <label id="lb-contact">联系方式 <span class="req">*</span></label>
+                  <input type="text" id="f-contact" placeholder="手机号码或电子邮箱" maxlength="50">
+                  <div class="form-error" id="err-contact"></div>
+                </div>
+                <div class="form-group" id="fg-message">
+                  <label id="lb-message">留言内容 <span class="req">*</span></label>
+                  <textarea id="f-message" placeholder="请输入您的留言内容（500 字以内）" maxlength="500"></textarea>
+                  <div class="form-error" id="err-message"></div>
+                </div>
+                <button type="submit" class="btn btn-primary" id="btn-submit" style="width: 100%">提交留言</button>
+              </form>
+            </div>
+            <div class="form-success" id="form-success">
+              <div class="check">
+                <svg viewBox="0 0 24 24" fill="none" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+              </div>
+              <h3 id="sc-title">提交成功！</h3>
+              <p id="sc-desc">感谢您的留言，我们会尽快与您取得联系。</p>
+              <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap">
+                <a class="btn btn-primary" id="mailto-btn" href="#">同时通过邮件发送</a>
+                <button class="btn btn-outline" id="reset-btn" type="button">再写一条</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+
+  <script src="data/content.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

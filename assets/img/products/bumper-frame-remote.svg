@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="前保险杠骨架 · 吉利远程配套 · 占位图">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#082c58"/>
+      <stop offset="1" stop-color="#0b3d7a"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 H0 V40" fill="none" stroke="#5a6a7a" stroke-opacity=".25" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#bg)"/>
+  <rect width="800" height="600" fill="url(#grid)"/>
+  <g transform="translate(250.0,102.0) scale(0.75)">
+    <path d="M60 150 h280 v40 a14 14 0 0 1 -14 14 H74 a14 14 0 0 1 -14 -14 z" fill="none" stroke="#dfe6ee" stroke-width="10"/><path d="M110 150 v54 M170 150 v54 M230 150 v54 M290 150 v54" stroke="#dfe6ee" stroke-width="7"/><path d="M60 108 q80 -30 160 -6 t120 6 v42 H60 z" fill="#dfe6ee" opacity=".35"/>
+  </g>
+  <text x="400.0" y="456.0" text-anchor="middle" fill="#dfe6ee" font-size="27" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-weight="bold">前保险杠骨架 · 吉利远程配套 · 占位图</text>
+  <text x="400.0" y="498.0" text-anchor="middle" fill="#8d9aa8" font-size="18" font-family="Arial, sans-serif">Front Bumper Frame for Geely Farizon</text>
+</svg>
